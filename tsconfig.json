@@ -6,7 +6,7 @@
     "**/.server/**/*.tsx",
     "**/.client/**/*.ts",
     "**/.client/**/*.tsx"
-  ],
+, "app/routes/api/getData.ts", "utility/dbConnect.js", "app/components/Chart.jsx", "app/routes/admin/route.tsx", "app/routes/news/[symbol]/$id.tsx", "app/routes/news/symbol/.$index.tsx", "app/routes/news/$symbol/$route.tsx", "app/routes/admin_.$symbol/route.tsx", "app/routes/news_.$symbol_.$id"  ],
   "compilerOptions": {
     "lib": ["DOM", "DOM.Iterable", "ES2022"],
     "types": ["@remix-run/node", "vite/client"],
